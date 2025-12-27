@@ -1,7 +1,7 @@
 # This Dockerfile has buildkit syntax, to allow build steps to be cached
 # and speed up when rebuilding
 
-FROM python:3.8.8-slim-buster AS base
+FROM python:3.12-slim AS base
 
 # Build ARGs
 ARG BOT_PROJECT="anfa-bot"
